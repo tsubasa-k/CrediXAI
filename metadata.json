@@ -1,0 +1,5 @@
+{
+  "name": "Copy of CrediXAI - 信貸審批模擬器",
+  "description": "互動式個人信貸審批模擬器與 SHAP 可解釋性分析 (Interactive Personal Credit Approval Simulator with SHAP Analysis)",
+  "requestFramePermissions": []
+}
