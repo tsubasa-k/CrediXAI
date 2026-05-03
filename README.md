@@ -1,7 +1,7 @@
 # CrediXAI — 個人信貸審批模擬器
 
-> 互動式個人信貸審批模擬器，結合 SHAP 可解釋性分析與 Google Gemini AI 說明報告。  
-> Interactive Personal Credit Approval Simulator with SHAP Analysis & Gemini AI Explanation.
+> 互動式個人信貸審批模擬器，結合 SHAP 可解釋性分析 
+> Interactive Personal Credit Approval Simulator with SHAP Analysis
 
 ---
 
