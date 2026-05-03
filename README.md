@@ -5,18 +5,18 @@
 
 ---
 
-## ✨ 功能特色 (Features)
+## 功能特色 (Features)
 
 | 功能 | 說明 |
 |------|------|
-| 🎚️ 互動式參數調整 | 透過滑桿即時調整六項信用指標，模型分數同步更新 |
-| 📊 SHAP Waterfall 圖表 | 視覺化呈現每個特徵如何將基礎分數推移至最終分數 |
-| 🤖 AI 說明報告 | 使用 Google Gemini 2.5 Flash 生成繁體中文信用評估報告與改善建議 |
-| ⚡ 模擬 XGBoost 模型 | 前端純 TypeScript 實作的模擬信貸評分模型（無需後端） |
+| 互動式參數調整 | 透過滑桿即時調整六項信用指標，模型分數同步更新 |
+| SHAP Waterfall 圖表 | 視覺化呈現每個特徵如何將基礎分數推移至最終分數 |
+| AI 說明報告 | 使用 Google Gemini 2.5 Flash 生成繁體中文信用評估報告與改善建議 |
+| 模擬 XGBoost 模型 | 前端純 TypeScript 實作的模擬信貸評分模型（無需後端） |
 
 ---
 
-## 🧮 信用評分模型 (Credit Scoring Model)
+##  信用評分模型 (Credit Scoring Model)
 
 本應用使用模擬的 XGBoost + TreeExplainer 邏輯，根據以下六項特徵計算信用分數（範圍 300–850）：
 
@@ -30,13 +30,13 @@
 | 違約/遲繳次數 (Delinquency) | 過去兩年內的遲繳紀錄 | 0 次 |
 
 **審批結果判斷邏輯：**
-- ✅ **核准 (Approve)**：最終分數 ≥ 700
-- ⚠️ **人工審查 (Manual Review)**：650 ≤ 分數 < 700
-- ❌ **拒絕 (Reject)**：分數 < 650
+-  **核准 (Approve)**：最終分數 ≥ 700
+-  **人工審查 (Manual Review)**：650 ≤ 分數 < 700
+-  **拒絕 (Reject)**：分數 < 650
 
 ---
 
-## 🛠️ 技術棧 (Tech Stack)
+## 技術棧 (Tech Stack)
 
 - **框架**：[React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
 - **建構工具**：[Vite 6](https://vitejs.dev/)
@@ -47,7 +47,7 @@
 
 ---
 
-## 🚀 本機執行 (Run Locally)
+## 本機執行 (Run Locally)
 
 **前置需求：** Node.js
 
@@ -62,7 +62,7 @@
    ```env
    API_KEY=your_gemini_api_key_here
    ```
-   > 🔑 可至 [Google AI Studio](https://aistudio.google.com/app/apikey) 申請免費 API Key。  
+   > 可至 [Google AI Studio](https://aistudio.google.com/app/apikey) 申請免費 API Key。  
    > 若未設定，SHAP 視覺化功能仍可正常使用，僅 AI 說明報告功能會停用。
 
 3. **啟動開發伺服器：**
@@ -78,7 +78,7 @@
 
 ---
 
-## 📁 專案結構 (Project Structure)
+## 專案結構 (Project Structure)
 
 ```
 CrediXAI/
@@ -100,7 +100,7 @@ CrediXAI/
 
 ---
 
-## 📖 使用說明 (How to Use)
+## 使用說明 (How to Use)
 
 1. **調整參數**：在左側面板拖動滑桿，調整年收入、貸款金額、負債比、就業年資、信用歷史及違約次數。
 2. **即時查看結果**：右上方「Model Prediction」卡片會即時顯示信用分數與審批結果；「Risk Assessment」卡片列出風險機率與主要影響因素。
@@ -109,7 +109,7 @@ CrediXAI/
 
 ---
 
-## 🔗 參考資源 (References)
+## 參考資源 (References)
 
 - [SHAP (SHapley Additive exPlanations)](https://github.com/slundberg/shap) — Lundberg & Lee, 2017
 - [Google Gemini API](https://ai.google.dev/)
